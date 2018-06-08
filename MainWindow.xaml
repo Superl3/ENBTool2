@@ -7,8 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="637.336" Width="525">
     <Grid Margin="0,0,0,11">
-        <TextBox x:Name="___Path" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" TextWrapping="Wrap" Text="type your path" VerticalAlignment="Top" Width="435"/>
-        <Button Content="Load" HorizontalAlignment="Left" Margin="450,10,0,0" VerticalAlignment="Top" Width="57" Height="29" Click="Button_Click"/>
+        <TextBox x:Name="___Path" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" TextWrapping="Wrap" Text="type your path" VerticalAlignment="Top" Width="362"/>
+        <Button Content="Load" HorizontalAlignment="Left" Margin="391,10,0,0" VerticalAlignment="Top" Width="57" Height="29" Click="Button_Click"/>
+        <ListView x:Name="INI" Margin="10,44,0,0" Width="500" HorizontalAlignment="Left" ItemsSource="Binding ">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Key}" Header="Key" Width="80"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Value}" Header="Value" Width="80"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="453,10,0,0" VerticalAlignment="Top" Width="57" Height="29" Click="Save_Click"/>
 
     </Grid>
 </Window>

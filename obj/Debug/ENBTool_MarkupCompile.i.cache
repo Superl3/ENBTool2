@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\
+C:\Users\stara\Documents\GitHub\ENBTool2\obj\Debug\
 ENBTool
 none
 false
 DEBUG;TRACE
-c:\users\stara\source\repos\ENBTool\ENBTool\App.xaml
+C:\Users\stara\Documents\GitHub\ENBTool2\App.xaml
 2-937823754
 
 10-396983584
 131569487696
 MainWindow.xaml;PathFinder.xaml;
 
-False
+True
 
