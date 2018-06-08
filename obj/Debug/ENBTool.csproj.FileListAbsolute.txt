@@ -4,3 +4,14 @@ c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\PathFinder.g.cs
 c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\App.g.cs
 c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool_MarkupCompile.cache
 c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool_MarkupCompile.lref
+C:\Users\stara\source\repos\ENBTool\ENBTool\bin\Debug\ENBTool.exe.config
+C:\Users\stara\source\repos\ENBTool\ENBTool\bin\Debug\ENBTool.exe
+C:\Users\stara\source\repos\ENBTool\ENBTool\bin\Debug\ENBTool.pdb
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\MainWindow.baml
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\PathFinder.baml
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.g.resources
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.Properties.Resources.resources
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.csproj.GenerateResource.Cache
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.csproj.CoreCompileInputs.cache
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.exe
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.pdb

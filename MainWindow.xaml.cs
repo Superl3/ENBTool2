@@ -65,14 +65,16 @@ namespace ENBTool
         }
         private void fndFiles()
         {
-            string[] weather = File.ReadAllLines(Path + "weatherlist.ini");
+            string[] weather = File.ReadAllLines(Path + "_weatherlist.ini");
             foreach (string line in weather)
             {
                 if (line.Contains("FileName="))
                 {
                     int startIdx = line.IndexOf('=') + 1;
-                    FileName.Add(line.Substring(startIdx).Trim());
-
+                    string val = line.Substring(startIdx).Trim();
+                    if (val == "")
+                        break;
+                    FileName.Add(val);
                 }
             }
         }
@@ -82,21 +84,32 @@ namespace ENBTool
             foreach (string f in FileName)
             {
                 string[] contents = File.ReadAllLines(Path + f);
+                string categories = "";
                 foreach (string line in contents)
                 {
+                    if (line.Contains('['))
+                        categories = line;
                     if (line.Contains('='))
                     {
                         int startIdx = line.IndexOf('=');
                         string key = line.Substring(0, startIdx).Trim();
                         string val = line.Substring(startIdx + 1).Trim();
-                        Files[f].Add(key, val);
+                        Dictionary<string, string> item = new Dictionary<string, string>();
+                        if (Files.ContainsKey(f))
+                        {
+                            item = Files[f];
+                            Files.Remove(f);
+                        }
+                        item.Add(categories + key, val);
+                        Files.Add(f, item);
+                        
                     }
                 }
             }
         }
         private void loadFiles()
         {
-            foreach (KeyValuePair<string, string> item in Files["enbseries.ini"])
+            foreach (KeyValuePair<string, string> item in Files["..\\enbseries.ini"])
             {
                 lsINI.Add(new disp(item.Key, item.Value));
             }
