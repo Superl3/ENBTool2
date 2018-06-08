@@ -1,0 +1,6 @@
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool.csprojResolveAssemblyReference.cache
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\MainWindow.g.cs
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\PathFinder.g.cs
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\App.g.cs
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool_MarkupCompile.cache
+c:\users\stara\source\repos\ENBTool\ENBTool\obj\Debug\ENBTool_MarkupCompile.lref
