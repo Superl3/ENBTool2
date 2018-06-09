@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="637.336" Width="525">
     <Grid Margin="0,0,0,11">
-        <TextBox x:Name="___Path" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" TextWrapping="Wrap" Text="C:\Users\stara\Downloads\Main File" VerticalAlignment="Top" Width="362"/>
-        <Button Content="Load" HorizontalAlignment="Left" Margin="391,10,0,0" VerticalAlignment="Top" Width="57" Height="29" Click="Button_Click"/>
-        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="453,10,0,0" VerticalAlignment="Top" Width="57" Height="29" Click="Save_Click"/>
+        <TextBox x:Name="___Path" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" TextWrapping="Wrap" Text="F:\Steam\SteamApps\steamapps\common\Skyrim" VerticalAlignment="Top" Width="300"/>
+        <Button Content="Load" HorizontalAlignment="Left" Margin="315,10,0,0" VerticalAlignment="Top" Width="90" Height="29" Click="Button_Click"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="410,10,0,0" VerticalAlignment="Top" Width="100" Height="29" Click="Save_Click"/>
         <DataGrid x:Name="INI" HorizontalAlignment="Left" Height="555" Margin="10,44,0,0" VerticalAlignment="Top" Width="500">
         </DataGrid>
     </Grid>

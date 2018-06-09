@@ -32,3 +32,5 @@ C:\Users\stara\Documents\GitHub\ENBTool2\obj\Debug\ENBTool.g.resources
 C:\Users\stara\Documents\GitHub\ENBTool2\obj\Debug\ENBTool.Properties.Resources.resources
 C:\Users\stara\Documents\GitHub\ENBTool2\obj\Debug\ENBTool.csproj.GenerateResource.cache
 C:\Users\stara\Documents\GitHub\ENBTool2\obj\Debug\ENBTool.csproj.CoreCompileInputs.cache
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\SaveList.g.cs
+C:\Users\stara\source\repos\ENBTool\ENBTool\obj\Debug\SaveList.baml
