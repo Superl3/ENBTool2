@@ -34,11 +34,7 @@ namespace ENBTool
                 Value = value;
             }
         }
-        ObservableCollection<disp> lsINI = new ObservableCollection<disp>();
-        public ObservableCollection<disp> colINI
-        {
-            get { return lsINI; }
-        }
+        public ObservableCollection<disp> lsINI = new ObservableCollection<disp>();
 
 
         public MainWindow()
@@ -109,11 +105,22 @@ namespace ENBTool
         }
         private void loadFiles()
         {
+            string categories = "";
             foreach (KeyValuePair<string, string> item in Files["..\\enbseries.ini"])
             {
-                lsINI.Add(new disp(item.Key, item.Value));
+                if(item.Key.Contains(']'))
+                {
+                    string cur = item.Key.Substring(0, item.Key.IndexOf(']')+1);
+                    if (cur != categories)
+                    {
+                        lsINI.Add(new disp(cur, ""));
+                        categories = cur;
+                    }
+                lsINI.Add(new disp(item.Key.Substring(cur.Length), item.Value));
+
+                }
             }
-            INI.ItemsSource = colINI;
+            INI.ItemsSource = lsINI;
         }
     }
 }
